@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="gh"
+fetch="git://github.com/" />
+
+<!-- Device Repos -->
+<project path="device/htc/leo" name="walter79/android_device_htc_leo" remote="gh" revision="evervolv-kitkat-3.0.x-ion" />
+
+<!-- Kernel Repos 3.x ION -->
+<project path="kernel/htc/leo" name="maniacx/android_kernel_htcleo-3.0" remote="gh" revision="leo" />
+
+<!-- Hardware Repos -->
+<project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" remote="gh" revision="kitkat" />
+<project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="gh" revision="kitkat" />
+<project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="gh" revision="kitkat" />
+<project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="gh" revision="kitkat" />
+
+</manifest>
